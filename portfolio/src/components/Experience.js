@@ -30,7 +30,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-12 bg-gray-200">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Experience</h2>
+        <h2 className="text-3xl font-bold text-center mt-8 mb-8">Experience</h2>
         <ul className="space-y-6">
           {experiences.map((exp) => (
             <li key={exp.company} className="bg-white p-6 rounded-lg shadow-lg">

@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+    "./src/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+  ],
+
   theme: {
     extend: {
       animation: {

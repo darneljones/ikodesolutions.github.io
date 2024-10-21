@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-12 bg-gray-50">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
+        <h2 className="text-3xl font-bold text-center mt-8 mb-8">Skills</h2>
         <ul className="flex flex-wrap justify-center gap-6">
           {skills.map((skill) => (
             <li
