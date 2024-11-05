@@ -1,4 +1,5 @@
 // src/components/About.js
+import me from "../assets/images/coderSmall.JPG"; // with import
 const About = () => {
   return (
     <section id="about" className="py-16 bg-yellow-50">
@@ -14,9 +15,9 @@ const About = () => {
         </p>
         <div className="flex justify-center items-center space-x-8">
           <img
-            src="../assets/images/coderLarge.JPG"
+            src={me}
             alt=""
-            className="w-48 h-48 rounded-full border-4 border-yellow-500 shadow-lg hover:shadow-xl transition"
+            className="w-48 h-48 rounded-2xl border-4 border-yellow-500 shadow-lg hover:shadow-xl transition"
           />
           <div className="text-left">
             <h3 className="text-2xl font-semibold mb-2">Key Skills</h3>
