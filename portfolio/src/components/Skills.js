@@ -2,6 +2,8 @@
 const skills = [
   "JavaScript",
   "React",
+  "Java",
+  "Python",
   "Node.js",
   "MongoDB",
   "CSS",

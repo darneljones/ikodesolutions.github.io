@@ -3,9 +3,25 @@ const experiences = [
   {
     company: "FINEOS",
     role: "Technical Consultancy Team Lead",
-    duration: "2020 - Present",
-    description: "Lead web development projects using React and Node.js.",
+    duration: "2022 - Present",
+    description: "Lead Technical Consulatant of the firm",
   },
+
+  {
+    company: "FINEOS",
+    role: "Technical Team Lead",
+    duration: "2021 - 2022",
+    description: "Manage a team of consultants for through out the SDLC",
+  },
+
+  {
+    company: "FINEOS",
+    role: "Sr. Technical Consultant",
+    duration: "2020 - 2021",
+    description:
+      "Multi-Regional lead technical consultant coding in Java and managing jenkins software deployments to an application hosted on AWS.",
+  },
+
   {
     company: "Bank of America Financial Center",
     role: "UI Engineer",
